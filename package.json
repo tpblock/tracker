@@ -1,20 +1,27 @@
 {
-	"name": "tpos-tracker",
+	"name": "@tpblock/tracker",
 	"main": "./lib/",
-	"version": "2.0.0",
+	"version": "2.0.3",
 	"description": "a tracking data and api service based on TPOS/EOS blockchain nodes.",
 	"scripts": {
 		"test": "tpos test",
 		"ci": "npm run test"
 	},
 	"keywords": [
-		"tpos"
+		"tpblock",
+		"tpos",
+		"fibjs",
+		"blockchain"
 	],
 	"author": "@tpblock",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"@fibjs/detect-port": "^1.0.2",
 		"fib-app": "^1.16.9"
 	},
-	"devDependencies": {}
+	"devDependencies": {},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	}
 }

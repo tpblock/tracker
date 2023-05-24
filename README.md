@@ -1,5 +1,7 @@
 # tpos-tracker
 
+[![NPM version](https://img.shields.io/npm/v/@tpblock/tracker?style=flat-square)](https://www.npmjs.com/package/@tpblock/tracker)
+
 tpos-tracker is a TPOS blockchain data API service framework built on the [fib-app](https://github.com/fibjs/fib-app)  framework.
 
 - It offers emitter event listeners for tpos block data.
