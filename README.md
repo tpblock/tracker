@@ -6,6 +6,12 @@ tpos-tracker is a TPOS blockchain data API service framework built on the [fib-a
 - It provides an HTTP service that supports GraphQL invocation.
 - It supports customization of data models (models) using the ORM approach, allowing for custom data tables and hook listeners.
 
+## Installation
+
+```bash
+$ tpos --install @tpblock/tracker
+```
+
 ## Data Model
 
 ![diagram](diagram.svg)
