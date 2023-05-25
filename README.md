@@ -16,4 +16,4 @@ $ tpos --install @tpblock/tracker
 
 ## Data Model
 
-![diagram](diagram.svg)
+![diagram](./diagram.svg)
